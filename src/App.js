@@ -10,7 +10,7 @@ import Footer from './Body/Footer';
 
 function App() {
   return (
-    <main className='background'>
+    <main>
       <Nav/>
       <Highlights/>
       <Course/>

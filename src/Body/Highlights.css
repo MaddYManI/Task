@@ -4,6 +4,7 @@
     grid-template-rows: auto;
     padding: 94px 175px 187px 175px;
     column-gap: 18px;
+    color: white;
 }
 div > h1 {
     grid-column: 1;

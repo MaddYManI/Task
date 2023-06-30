@@ -11,6 +11,9 @@ import Footer from './Body/Footer';
 function App() {
   return (
     <main>
+      <span className='background'></span>
+      <span className='background1'></span>
+      <span className='background2'></span>
       <Nav/>
       <Highlights/>
       <Course/>

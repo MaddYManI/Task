@@ -1,0 +1,37 @@
+.background::before {
+    content: "";
+    display: block;
+    width: 931px;
+    height: 850px;
+    background-color: #7A3199;
+    border-radius: 931px;
+    position: absolute;
+    z-index: -1;
+    left: -450px;
+    top: -400px;
+  }
+  .background1::after {
+    content: "";
+    display: block;
+    width: 1870.277px;
+    height: 1255.42px;
+    background-image: linear-gradient(to top, #161033,#7A3199);
+    position: absolute;
+    z-index: -2;
+    left: -770px;
+    top: -650px;
+    transform: rotate(-33deg);
+  }
+  .background2::before {
+    content: "";
+    display: block;
+    border-left: 700px solid transparent;
+    border-right: 1000px solid transparent;
+    border-bottom: 700px solid #161033;
+    z-index: -2;
+    position: absolute;
+    transform: rotate(-33deg);
+    top: -650px;
+    left: 300px;
+  }
+

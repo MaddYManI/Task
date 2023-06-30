@@ -7,7 +7,6 @@ import tweet from './tweet.svg'
 function Footer() {
   return (
     <div className='footer-container'>
-        <span className='background3'></span>
         <div className='quotes'>
             <h1>We have what you’re looking for</h1>
             <p className='footer-des'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type a</p>

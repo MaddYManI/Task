@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.nav-bar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    padding: 36px 175px;
+}
+nav h3 {
+    grid-column: 1;
+}
+nav ul {
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: subgrid;
+}
+nav ul li {
+    grid-row: 1/4;
+    align-self: center;
+    font-weight: 400;
+    list-style-type: none;
+}

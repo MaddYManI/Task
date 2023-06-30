@@ -5,7 +5,6 @@ function Course() {
   return (
     <div className='course-container'>
         <div className='courses'>
-            
             <div className='course-popup-1'>
                 <h2><strong>Interactive Features</strong></h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
